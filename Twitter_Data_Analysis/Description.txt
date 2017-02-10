@@ -1,0 +1,10 @@
+A4:
+
+In this project I did the analysis on twitter data.
+
+Collect.py : In collect.py I collected 5000 tweets those who commented about 'Hillary Clinton'. Then I took the follwers of the users who tweeted about Hillary Clinton.
+Then I wrote whole data in a file spearating out the user data and the tweet related data. This was the job of Collect.py
+
+Cluster.py : In cluseter.py I took the top common followers who has follwing more than one user who twitted about Hillary Clinton. Then I checked who the follwers follow Hillary clinton and prepared the cluster accordingly
+
+Clssify.py : In classify.py I trained my model useing training data and tested against the test data which i took it about the obamacare and got the top classified tweets
